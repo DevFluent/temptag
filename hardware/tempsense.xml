@@ -1,0 +1,581 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:/Users/hodginsa/Documents/devfluent/pocketscale/hardware/pocketscale.sch</source>
+    <date>11/02/2017 12:53:59 PM</date>
+    <tool>Eeschema 4.0.4-stable</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>pocketscale.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U1">
+      <value>LightBlueBean</value>
+      <footprint>idlehands_footprints:LightBlueBean</footprint>
+      <libsource lib="lightbluebean" part="LightBlueBean"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58655C86</tstamp>
+    </comp>
+    <comp ref="BT1">
+      <value>Battery</value>
+      <footprint>Pin_Headers:Pin_Header_Angled_1x02</footprint>
+      <libsource lib="device" part="Battery"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58655D6C</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>HX711</value>
+      <footprint>idlehands_footprints:SOP16L</footprint>
+      <libsource lib="sparkfun" part="HX711"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>586EB7F2</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>20k</value>
+      <footprint>idlehands_footprints:R_0402_Hand</footprint>
+      <fields>
+        <field name="Digikey Part No.">311-20KJRCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>586EBAA0</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>8.2k</value>
+      <footprint>idlehands_footprints:R_0402_Hand</footprint>
+      <fields>
+        <field name="Digikey Part No.">311-8.2KJRCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>586EBB89</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>100R</value>
+      <footprint>idlehands_footprints:R_0402_Hand</footprint>
+      <fields>
+        <field name="Digikey Part No.">311-100LRCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>586EBC38</tstamp>
+    </comp>
+    <comp ref="L1">
+      <value>3.3uH</value>
+      <footprint>idlehands_footprints:C_SM0603</footprint>
+      <fields>
+        <field name="Digikey Part No.">587-1584-6-ND</field>
+      </fields>
+      <libsource lib="device" part="INDUCTOR_SMALL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>586EBF43</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>0.1uF</value>
+      <footprint>idlehands_footprints:C_0402_Hand</footprint>
+      <fields>
+        <field name="Digikey Part No.">490-6328-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>586EC09C</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>10uF</value>
+      <footprint>idlehands_footprints:c_1206</footprint>
+      <fields>
+        <field name="Digikey Part No.">399-1249-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>586EC0FD</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>MMBT4403</value>
+      <footprint>idlehands_footprints:SOT23</footprint>
+      <fields>
+        <field name="Digikey Part No.">MMBT4403LT3GOSCT-ND</field>
+      </fields>
+      <libsource lib="transistors" part="MMBT3906"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>586EC54F</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>0.1uF</value>
+      <footprint>idlehands_footprints:C_0402_Hand</footprint>
+      <fields>
+        <field name="Digikey Part No.">490-6328-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>586ED3C3</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>0.1uF</value>
+      <footprint>idlehands_footprints:C_0402_Hand</footprint>
+      <fields>
+        <field name="Digikey Part No.">490-6328-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>586ED437</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>10uF</value>
+      <footprint>idlehands_footprints:c_1206</footprint>
+      <fields>
+        <field name="Digikey Part No.">399-1249-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>586ED480</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>0.1uF</value>
+      <footprint>idlehands_footprints:C_0402_Hand</footprint>
+      <fields>
+        <field name="Digikey Part No.">490-6328-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>586F48D7</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>0.1uF</value>
+      <footprint>idlehands_footprints:C_0402_Hand</footprint>
+      <fields>
+        <field name="Digikey Part No.">490-6328-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>586F4996</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>100R</value>
+      <footprint>idlehands_footprints:R_0402_Hand</footprint>
+      <fields>
+        <field name="Digikey Part No.">311-100LRCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>586F4DBA</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>LTC3525</value>
+      <footprint>idlehands_footprints:SC70-6</footprint>
+      <fields>
+        <field name="Digikey Part No.">LTC3525ESC6-5#TRMPBFCT-ND</field>
+      </fields>
+      <libsource lib="linear" part="LTC3525"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>586FC9AB</tstamp>
+    </comp>
+    <comp ref="L2">
+      <value>10uH</value>
+      <footprint>Inductors:Inductor_1212</footprint>
+      <fields>
+        <field name="Digikey Part No.">490-6617-1-ND</field>
+      </fields>
+      <libsource lib="device" part="INDUCTOR_SMALL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>586FDCEC</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>1uF</value>
+      <footprint>idlehands_footprints:C_0402_Hand</footprint>
+      <fields>
+        <field name="Digikey Part No.">587-1231-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>586FF56E</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>10uF</value>
+      <footprint>idlehands_footprints:c_1206</footprint>
+      <fields>
+        <field name="Digikey Part No.">399-1249-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>586FFE67</tstamp>
+    </comp>
+    <comp ref="F1">
+      <value>500mA</value>
+      <footprint>idlehands_footprints:c_1206</footprint>
+      <libsource lib="device" part="F_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>586F6171</tstamp>
+    </comp>
+    <comp ref="JP1">
+      <value>HX_PWR</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x02</footprint>
+      <libsource lib="device" part="Jumper_NO_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>586F8CEA</tstamp>
+    </comp>
+    <comp ref="P1">
+      <value>JST-SH6</value>
+      <footprint>Connectors_JST_SH:Connectors_JST_SM06B-SRSS-TB</footprint>
+      <fields>
+        <field name="Digikey Part No.">455-1806-1-ND</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X06"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>589F3F4B</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="device" part="Battery">
+      <fields>
+        <field name="Reference">BT</field>
+        <field name="Value">Battery</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X06">
+      <description>Connector, single row, 01x06</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X06</fp>
+        <fp>Pin_Header_Angled_1X06</fp>
+        <fp>Socket_Strip_Straight_1X06</fp>
+        <fp>Socket_Strip_Angled_1X06</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X06</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="C_Small">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C?</fp>
+        <fp>C_????_*</fp>
+        <fp>C_????</fp>
+        <fp>SMD*_c</fp>
+        <fp>Capacitor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="F_Small">
+      <description>Fuse</description>
+      <footprints>
+        <fp>CP*</fp>
+        <fp>SM*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">F_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="sparkfun" part="HX711">
+      <description>24-Bit Analog-to-Digital Converter (ADC) for Weigh Scales</description>
+      <docs>https://cdn.sparkfun.com/datasheets/Sensors/ForceFlex/hx711_english.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">HX711</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VSUP" type="input"/>
+        <pin num="2" name="BASE" type="input"/>
+        <pin num="3" name="AVDD" type="input"/>
+        <pin num="4" name="VFB" type="input"/>
+        <pin num="5" name="AGND" type="input"/>
+        <pin num="6" name="VBG" type="input"/>
+        <pin num="7" name="INNA" type="input"/>
+        <pin num="8" name="INPA" type="input"/>
+        <pin num="9" name="INNB" type="input"/>
+        <pin num="10" name="INPB" type="input"/>
+        <pin num="11" name="SCK" type="input"/>
+        <pin num="12" name="DOUT" type="input"/>
+        <pin num="13" name="XO" type="input"/>
+        <pin num="14" name="XI" type="input"/>
+        <pin num="15" name="RATE" type="input"/>
+        <pin num="16" name="DVDD" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="INDUCTOR_SMALL">
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">INDUCTOR_SMALL</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+        <pin num="2" name="2" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="Jumper_NO_Small">
+      <description>Jumper normally open</description>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">Jumper_NO_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="linear" part="LTC3525">
+      <description>400mA Micropower Synchronous Step-Up DC/DC Converter with Output Disconnect</description>
+      <docs>http://cds.linear.com/docs/en/datasheet/3525fc.pdf</docs>
+      <footprints>
+        <fp>SC70</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LTC3525</field>
+      </fields>
+      <pins>
+        <pin num="1" name="SHDN" type="input"/>
+        <pin num="2" name="GND" type="input"/>
+        <pin num="3" name="VIN" type="input"/>
+        <pin num="4" name="VOUT" type="input"/>
+        <pin num="5" name="GND" type="input"/>
+        <pin num="6" name="SW" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="lightbluebean" part="LightBlueBean">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LightBlueBean</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A0" type="input"/>
+        <pin num="2" name="A1" type="input"/>
+        <pin num="3" name="D0" type="input"/>
+        <pin num="4" name="D1" type="input"/>
+        <pin num="5" name="D2" type="input"/>
+        <pin num="6" name="D3" type="input"/>
+        <pin num="7" name="D4" type="input"/>
+        <pin num="8" name="D5" type="input"/>
+        <pin num="9" name="GND" type="input"/>
+        <pin num="10" name="VIN" type="input"/>
+        <pin num="11" name="VCC" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="transistors" part="MMBT3906">
+      <description>40V Vce, 0.2A Ic, PNP, Small Signal Transistor, SOT-23</description>
+      <docs>http://www.nxp.com/documents/data_sheet/MMBT3906.pdf</docs>
+      <footprints>
+        <fp>SOT-23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">MMBT3906</field>
+        <field name="Footprint">SOT-23</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="input"/>
+        <pin num="2" name="E" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="device">
+      <uri>C:\KiCad\share\kicad\library\device.lib</uri>
+    </library>
+    <library logical="transistors">
+      <uri>C:\KiCad\share\kicad\library\transistors.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>C:\KiCad\share\kicad\library\conn.lib</uri>
+    </library>
+    <library logical="linear">
+      <uri>C:\KiCad\share\kicad\library\linear.lib</uri>
+    </library>
+    <library logical="lightbluebean">
+      <uri>C:\Users\hodginsa\Documents\idlehandsdev\idlehands_libs\lightbluebean.lib</uri>
+    </library>
+    <library logical="sparkfun">
+      <uri>C:\Users\hodginsa\Documents\idlehandsdev\idlehands_libs\sparkfun.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+5V">
+      <node ref="Q1" pin="2"/>
+      <node ref="C1" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="C3" pin="1"/>
+      <node ref="U3" pin="4"/>
+      <node ref="C9" pin="1"/>
+      <node ref="U2" pin="1"/>
+    </net>
+    <net code="2" name="VCC">
+      <node ref="JP1" pin="1"/>
+      <node ref="U1" pin="11"/>
+    </net>
+    <net code="3" name="5VSW">
+      <node ref="U1" pin="8"/>
+      <node ref="U3" pin="1"/>
+    </net>
+    <net code="4" name="+BATT">
+      <node ref="F1" pin="2"/>
+      <node ref="L2" pin="1"/>
+      <node ref="C8" pin="2"/>
+      <node ref="U1" pin="10"/>
+      <node ref="U3" pin="3"/>
+    </net>
+    <net code="5" name="Net-(P1-Pad3)">
+      <node ref="R3" pin="2"/>
+      <node ref="P1" pin="3"/>
+    </net>
+    <net code="6" name="Net-(C7-Pad2)">
+      <node ref="R3" pin="1"/>
+      <node ref="C7" pin="2"/>
+      <node ref="U2" pin="7"/>
+    </net>
+    <net code="7" name="Net-(P1-Pad2)">
+      <node ref="P1" pin="2"/>
+      <node ref="R4" pin="2"/>
+    </net>
+    <net code="8" name="Net-(C7-Pad1)">
+      <node ref="C7" pin="1"/>
+      <node ref="R4" pin="1"/>
+      <node ref="U2" pin="8"/>
+    </net>
+    <net code="9" name="Net-(JP1-Pad2)">
+      <node ref="JP1" pin="2"/>
+      <node ref="U2" pin="16"/>
+    </net>
+    <net code="10" name="SCK">
+      <node ref="U1" pin="4"/>
+      <node ref="U2" pin="11"/>
+    </net>
+    <net code="11" name="GND">
+      <node ref="C6" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="U3" pin="5"/>
+      <node ref="U1" pin="9"/>
+      <node ref="U2" pin="5"/>
+      <node ref="U3" pin="2"/>
+      <node ref="BT1" pin="2"/>
+      <node ref="U2" pin="14"/>
+      <node ref="U2" pin="15"/>
+      <node ref="C8" pin="1"/>
+      <node ref="C9" pin="2"/>
+      <node ref="P1" pin="4"/>
+      <node ref="P1" pin="1"/>
+      <node ref="R2" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="C4" pin="2"/>
+    </net>
+    <net code="12" name="DATA">
+      <node ref="U2" pin="12"/>
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="13" name="Net-(P1-Pad6)">
+      <node ref="P1" pin="6"/>
+    </net>
+    <net code="14" name="Net-(L2-Pad2)">
+      <node ref="L2" pin="2"/>
+      <node ref="U3" pin="6"/>
+    </net>
+    <net code="15" name="Net-(U2-Pad13)">
+      <node ref="U2" pin="13"/>
+    </net>
+    <net code="16" name="Net-(L1-Pad2)">
+      <node ref="Q1" pin="3"/>
+      <node ref="L1" pin="2"/>
+      <node ref="R1" pin="1"/>
+      <node ref="U2" pin="3"/>
+    </net>
+    <net code="17" name="Net-(U2-Pad10)">
+      <node ref="U2" pin="10"/>
+    </net>
+    <net code="18" name="Net-(C4-Pad1)">
+      <node ref="C5" pin="1"/>
+      <node ref="L1" pin="1"/>
+      <node ref="C4" pin="1"/>
+      <node ref="P1" pin="5"/>
+    </net>
+    <net code="19" name="Net-(C6-Pad1)">
+      <node ref="C6" pin="1"/>
+      <node ref="U2" pin="6"/>
+    </net>
+    <net code="20" name="Net-(U1-Pad2)">
+      <node ref="U1" pin="2"/>
+    </net>
+    <net code="21" name="Net-(U1-Pad5)">
+      <node ref="U1" pin="5"/>
+    </net>
+    <net code="22" name="Net-(U1-Pad6)">
+      <node ref="U1" pin="6"/>
+    </net>
+    <net code="23" name="Net-(U1-Pad7)">
+      <node ref="U1" pin="7"/>
+    </net>
+    <net code="24" name="Net-(BT1-Pad1)">
+      <node ref="F1" pin="1"/>
+      <node ref="BT1" pin="1"/>
+    </net>
+    <net code="25" name="Net-(Q1-Pad1)">
+      <node ref="Q1" pin="1"/>
+      <node ref="U2" pin="2"/>
+    </net>
+    <net code="26" name="Net-(U2-Pad9)">
+      <node ref="U2" pin="9"/>
+    </net>
+    <net code="27" name="Net-(R1-Pad2)">
+      <node ref="U2" pin="4"/>
+      <node ref="R2" pin="1"/>
+      <node ref="R1" pin="2"/>
+    </net>
+    <net code="28" name="Net-(U1-Pad1)">
+      <node ref="U1" pin="1"/>
+    </net>
+  </nets>
+</export>

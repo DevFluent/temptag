@@ -1,0 +1,12 @@
+ref,value,footprint,Digikey Part No.,Mouser Part No.,Quantity
+R2,8.2k,idlehands_footprints:R_0402_Hand,311-8.2KJRCT-ND,,1
+C4 C1 C2 C6 C7,0.1uF,idlehands_footprints:C_0402_Hand,490-6328-1-ND,,5
+Q1,MMBT4403,idlehands_footprints:SOT23,MMBT4403LT3GOSCT-ND,,1
+C5 C3 C9,10uF,idlehands_footprints:c_1206,399-1249-1-ND,,3
+L2,10uH,Inductors:Inductor_1212,490-6617-1-ND,,1
+C8,1uF,idlehands_footprints:C_0402_Hand,587-1231-1-ND,,1
+R3 R4,100R,idlehands_footprints:R_0402_Hand,311-100LRCT-ND,,2
+P1,JST-SH6,Connectors_JST_SH:Connectors_JST_SM06B-SRSS-TB,455-1806-1-ND,,1
+L1,3.3uH,idlehands_footprints:C_SM0603,587-1584-6-ND,,1
+U3,LTC3525,idlehands_footprints:SC70-6,LTC3525ESC6-5#TRMPBFCT-ND,,1
+R1,20k,idlehands_footprints:R_0402_Hand,311-20KJRCT-ND,,1
